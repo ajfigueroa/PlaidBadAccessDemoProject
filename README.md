@@ -1,5 +1,7 @@
 # Plaid Test
 
+## Purpose
+
 This is a project meant to help reproduce a bug with v1.1.13 of the [plaid/link](https://github.com/plaid/link) pod.
 
 The files of interest are:
@@ -20,3 +22,16 @@ func testPlaidBuilderDefaultsWithNilWebhook() {
 The screenshot of the resulting exception in Xcode appears as:
 
 <img src="Images/XcodeScreenshot.png" width="60%" height="60%" />
+
+## Requirements
+
+- Xcode 10 or higher
+
+## Setup
+
+Clone this project and then assuming you have Cocoapods installed, you should run this command in your project directory:
+```
+pod install
+```
+
+After you'll need to open up `PlaidTest.xcworkspace` to reproduce this scenario above.
