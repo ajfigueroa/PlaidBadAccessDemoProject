@@ -3,6 +3,7 @@
 ## Purpose
 
 This is a project meant to help reproduce a bug with v1.1.13 of the [plaid/link](https://github.com/plaid/link) pod.
+The bug has been reported here: https://github.com/plaid/link/issues/284
 
 The files of interest are:
 - `PlaidConfigurationBuilder` and
