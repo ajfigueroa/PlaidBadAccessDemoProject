@@ -4,7 +4,7 @@ use_frameworks!
 inhibit_all_warnings!
 
 target 'PlaidTest' do
-  pod 'Plaid', '1.1.12'
+  pod 'Plaid', '1.1.13'
 
   target 'PlaidTestTests' do
     inherit! :search_paths
